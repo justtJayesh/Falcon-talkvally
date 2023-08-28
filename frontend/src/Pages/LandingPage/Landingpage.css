@@ -1,0 +1,42 @@
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10vw;
+    /* background-color: red; */
+}
+#navbar #icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar #icon p {
+    margin-left: 25px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color: transparent;
+    letter-spacing: 7px;
+}
+
+#recording-container {
+    height: 90vh;
+    padding: 30px;
+    /* background-color: red; */
+}
+
+
+#recording-container #video-player{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#recording-container #controls {
+    /* background-color: yellow;/ */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
